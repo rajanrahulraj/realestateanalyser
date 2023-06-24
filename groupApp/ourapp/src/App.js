@@ -11,15 +11,7 @@ const MapWithCenter = withGoogleMap(() => (
     apiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY} // add apiKey
     defaultZoom={12}
     defaultCenter={{ lat: 40.7831, lng: -73.9712 }} // position of Manhattan
-    options={{
-      // left lower corner
-      mapTypeControl: false,
-      streetViewControl: false,
-      fullscreenControl: false,
-      zoomControlOptions: {
-        position: window.google.maps.ControlPosition.LEFT_BOTTOM,
-      },
-    }}
+
   >
     <Marker position={{ lat: 40.7831, lng: -73.9712 }} />
     {/* // add a marker */}
@@ -28,11 +20,19 @@ const MapWithCenter = withGoogleMap(() => (
 
 function App () {
   return (
-    <div>
+    <div style={{ position: 'relative', width: '100%', height: '100vh' }}>
       {/* content */}
-      <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, top: 0 }}>
+      <div
+        style={{
+          position: 'absolute',
+          bottom: '0',
+          left: '0',
+          right: '30%',
+          top: '30%',
+        }}
+      >
         <MapWithCenter
-          containerElement={<div style={{ height: '100vh' }} />}
+          containerElement={<div style={{ height: '100%' }} />}
           mapElement={<div style={{ height: '100%' }} />}
         />
       </div>
