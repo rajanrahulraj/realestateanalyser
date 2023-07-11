@@ -1,24 +1,37 @@
 package com.example.realestateanalyser.controller;
 
+import com.example.realestateanalyser.dao.TripDao;
 import com.example.realestateanalyser.pojo.TripAggregateInfo;
 import com.example.realestateanalyser.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Date;
 
-@RestController("/trip")
+@RestController
+@RequestMapping("/trip")
 public class TripsController {
-	private final SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
+	@Autowired
+	TripDao tripDao;
 
-	@GetMapping
-	public void pickupAggregateInfo(
+	@GetMapping("/pickup")
+	public TripAggregateInfo pickupAggregateInfo(
 			int pickupLocationID,
-			@DateTimeFormat(pattern = "yyyy-MM") Date startMonth,
-			@DateTimeFormat(pattern = "yyyy-MM") Date endMonth) {
-		Session session = sessionFactory.getCurrentSession();
+			@DateTimeFormat(pattern = "yyyy-MM-dd") Date startMonth,
+			@DateTimeFormat(pattern = "yyyy-MM-dd") Date endMonth) {
+		return tripDao.pickupAggregates(pickupLocationID, startMonth, endMonth);
+	}
+
+	@GetMapping("/dropoff")
+	public TripAggregateInfo dropoffAggregateInfo(
+			int dropoffLocationID,
+			@DateTimeFormat(pattern = "yyyy-MM-dd") Date startMonth,
+			@DateTimeFormat(pattern = "yyyy-MM-dd") Date endMonth) {
+		return tripDao.dropoffAggregates(dropoffLocationID, startMonth, endMonth);
 	}
 }
