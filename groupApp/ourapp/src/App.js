@@ -1,4 +1,4 @@
-import './App.css'
+
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps'
@@ -13,12 +13,12 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js'
-import TaxiZoneMap from './TaxiZoneMap'
+import TaxiZoneMap from './pages/TaxiZoneMap'
 
-// import "bootstrap/dist/css/bootstrap.min.css"
+
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Auth from "./Auth"
-import Main from "./Main"
+import Auth from "./pages/Auth"
+import Main from "./pages/Main"
 
 
 ChartJS.register(CategoryScale,
@@ -238,8 +238,9 @@ function App () {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/auth" element={<Auth />} />
         <Route path="/taxi" element={<TaxiZoneMap />} />
+        <Route path="/auth" element={<Auth />} />
+
 
       </Routes>
     </BrowserRouter>
