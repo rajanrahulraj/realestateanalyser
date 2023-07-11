@@ -239,6 +239,8 @@ function App () {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/auth" element={<Auth />} />
+        <Route path="/taxi" element={<TaxiZoneMap />} />
+
       </Routes>
     </BrowserRouter>
     // </div >
