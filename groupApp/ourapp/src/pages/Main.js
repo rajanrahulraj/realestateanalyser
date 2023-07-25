@@ -5,7 +5,6 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps'
 import { Bar } from 'react-chartjs-2'
-
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -15,12 +14,7 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js'
-import TaxiZoneMap from './TaxiZoneMap'
-
 // import "bootstrap/dist/css/bootstrap.min.css"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Auth from "./Auth"
-
 
 ChartJS.register(CategoryScale,
   LinearScale,
@@ -47,19 +41,15 @@ ChartJS.register(CategoryScale,
 const apiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY
 
 const MapWithCenter = withGoogleMap(() => (
-
   <GoogleMap
     apiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY} // add apiKey
     defaultZoom={12}
     defaultCenter={{ lat: 40.7831, lng: -73.9712 }} // position of Manhattan
 
   >
-
-
     {/* <Marker position={{ lat: 40.7831, lng: -73.9712 }} /> */}
     {/* // add a marker */}
     {/* Render hospital markers */}
-
   </GoogleMap>
 ))
 
@@ -172,10 +162,10 @@ function Main () {
 
     <div className="App">
       {/* <LineChart /> */}
-      <h1>Real Estate Analyzer</h1>
-      <div className='row'>
-        <div className='col'>
-          <div className='filters'>
+      <h1>Real Estate</h1>
+      <div className="d-flex">
+        <div className="col">
+          <div className="filters">
 
             <h2>Time Filter</h2>
             <input
@@ -233,7 +223,7 @@ function Main () {
           </div>
         </div>
 
-        <div className='bar'><Bar options={chartOptions} data={chartData} /></div>
+        <div className="bar"><Bar options={chartOptions} data={chartData} /></div>
         {/* <TaxiZoneMap /> */}
       </div>
 
