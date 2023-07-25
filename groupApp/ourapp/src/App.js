@@ -16,10 +16,12 @@ import {
 import TaxiZoneMap from './pages/TaxiZoneMap'
 
 
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route, Router } from "react-router-dom"
 import Auth from "./pages/Auth"
 import Main from "./pages/Main"
+import Test from "./pages/Test"
 
+import Navigation from "./components/Navigation"
 
 ChartJS.register(CategoryScale,
   LinearScale,
@@ -235,11 +237,17 @@ function App () {
     //     <div className='bar'><Bar options={chartOptions} data={chartData} /></div>
     //     {/* <TaxiZoneMap /> */}
     //   </div>
+
     <BrowserRouter>
+      <Navigation />
+
       <Routes>
+
         <Route path="/" element={<Main />} />
         <Route path="/taxi" element={<TaxiZoneMap />} />
         <Route path="/auth" element={<Auth />} />
+        <Route path="/test" element={<Test />} />
+
 
 
       </Routes>
