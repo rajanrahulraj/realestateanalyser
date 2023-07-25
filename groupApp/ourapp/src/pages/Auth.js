@@ -4,6 +4,7 @@
 import React, { useState } from "react"
 // import "bootstrap/dist/css/bootstrap.min.css"
 
+
 export default function (props) {
   let [authMode, setAuthMode] = useState("signin")
 
@@ -24,7 +25,7 @@ export default function (props) {
               </span>
             </div>
             <div className="form-group mt-3">
-              <label>Email address</label>
+              <label>Email address </label>
               <input
                 type="email"
                 className="form-control mt-1"
@@ -32,7 +33,7 @@ export default function (props) {
               />
             </div>
             <div className="form-group mt-3">
-              <label>Password</label>
+              <label>Password </label>
               <input
                 type="password"
                 className="form-control mt-1"
