@@ -42,10 +42,10 @@ class RealestateanalyserApplicationTests {
 	@Test
 	void testDAO() throws Exception {
 		final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd");
-		final TripAggregateInfo pickupAggregates = tripDao.pickupAggregates(132,
+		final TripAggregateInfo pickupAggregates = tripDao.monthlyPickup(132,
 				dateFormat.parse("2020-01-01"),
 				dateFormat.parse("2021-03-01"));
-		final TripAggregateInfo dropoffAggregates = tripDao.dropoffAggregates(132,
+		final TripAggregateInfo dropoffAggregates = tripDao.monthlyDropoff(132,
 				dateFormat.parse("2020-01-01"),
 				dateFormat.parse("2021-03-01"));
 		System.out.println(pickupAggregates);
