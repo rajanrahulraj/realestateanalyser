@@ -127,6 +127,7 @@ def getPickupPassengerCount(location_id, num_months):
 
     # Print prediction results
     print(f'Predictions for LocationID {location_id} from {start_date} to {end_date}:')
+    prediction_dates.clear()
     for i, prediction in enumerate(predictions_PU):
         prediction_date = start_date + pd.DateOffset(months=i)
         prediction_dates.append(prediction_date)
