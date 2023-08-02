@@ -1,0 +1,3620 @@
+[
+  {
+    "id": 1,
+    "locationid": 42,
+    "price": 1510825,
+    "year": 2018
+  },
+  {
+    "id": 2,
+    "locationid": 74,
+    "price": 2182065,
+    "year": 2018
+  },
+  {
+    "id": 3,
+    "locationid": 244,
+    "price": 3176576,
+    "year": 2018
+  },
+  {
+    "id": 4,
+    "locationid": 127,
+    "price": 3038289,
+    "year": 2018
+  },
+  {
+    "id": 5,
+    "locationid": 48,
+    "price": 1836432,
+    "year": 2017
+  },
+  {
+    "id": 6,
+    "locationid": 107,
+    "price": 3120851,
+    "year": 2017
+  },
+  {
+    "id": 7,
+    "locationid": 125,
+    "price": 4111229,
+    "year": 2017
+  },
+  {
+    "id": 8,
+    "locationid": 234,
+    "price": 3970166,
+    "year": 2017
+  },
+  {
+    "id": 9,
+    "locationid": 229,
+    "price": 2944707,
+    "year": 2017
+  },
+  {
+    "id": 10,
+    "locationid": 75,
+    "price": 3090501,
+    "year": 2017
+  },
+  {
+    "id": 11,
+    "locationid": 42,
+    "price": 1404702,
+    "year": 2017
+  },
+  {
+    "id": 12,
+    "locationid": 244,
+    "price": 2922282,
+    "year": 2017
+  },
+  {
+    "id": 13,
+    "locationid": 243,
+    "price": 2241563,
+    "year": 2017
+  },
+  {
+    "id": 14,
+    "locationid": 127,
+    "price": 2808947,
+    "year": 2017
+  },
+  {
+    "id": 15,
+    "locationid": 144,
+    "price": 2743645,
+    "year": 2016
+  },
+  {
+    "id": 16,
+    "locationid": 158,
+    "price": 3965578,
+    "year": 2016
+  },
+  {
+    "id": 17,
+    "locationid": 234,
+    "price": 3825393,
+    "year": 2016
+  },
+  {
+    "id": 18,
+    "locationid": 230,
+    "price": 16162458,
+    "year": 2016
+  },
+  {
+    "id": 19,
+    "locationid": 142,
+    "price": 1945819,
+    "year": 2016
+  },
+  {
+    "id": 20,
+    "locationid": 42,
+    "price": 1301529,
+    "year": 2016
+  },
+  {
+    "id": 21,
+    "locationid": 244,
+    "price": 2711690,
+    "year": 2016
+  },
+  {
+    "id": 22,
+    "locationid": 127,
+    "price": 2584664,
+    "year": 2016
+  },
+  {
+    "id": 23,
+    "locationid": 261,
+    "price": 4907498,
+    "year": 2015
+  },
+  {
+    "id": 24,
+    "locationid": 45,
+    "price": 2266564,
+    "year": 2015
+  },
+  {
+    "id": 25,
+    "locationid": 148,
+    "price": 1870811,
+    "year": 2015
+  },
+  {
+    "id": 26,
+    "locationid": 249,
+    "price": 2636139,
+    "year": 2015
+  },
+  {
+    "id": 27,
+    "locationid": 158,
+    "price": 3774424,
+    "year": 2015
+  },
+  {
+    "id": 28,
+    "locationid": 234,
+    "price": 3770105,
+    "year": 2015
+  },
+  {
+    "id": 29,
+    "locationid": 233,
+    "price": 1800520,
+    "year": 2015
+  },
+  {
+    "id": 30,
+    "locationid": 48,
+    "price": 1688672,
+    "year": 2015
+  },
+  {
+    "id": 31,
+    "locationid": 237,
+    "price": 5522399,
+    "year": 2015
+  },
+  {
+    "id": 32,
+    "locationid": 141,
+    "price": 1991661,
+    "year": 2015
+  },
+  {
+    "id": 33,
+    "locationid": 75,
+    "price": 2853861,
+    "year": 2015
+  },
+  {
+    "id": 34,
+    "locationid": 42,
+    "price": 1198039,
+    "year": 2015
+  },
+  {
+    "id": 35,
+    "locationid": 41,
+    "price": 864267,
+    "year": 2015
+  },
+  {
+    "id": 36,
+    "locationid": 152,
+    "price": 4842615,
+    "year": 2015
+  },
+  {
+    "id": 37,
+    "locationid": 244,
+    "price": 2696661,
+    "year": 2015
+  },
+  {
+    "id": 38,
+    "locationid": 127,
+    "price": 2425209,
+    "year": 2015
+  },
+  {
+    "id": 39,
+    "locationid": 261,
+    "price": 4410251,
+    "year": 2014
+  },
+  {
+    "id": 40,
+    "locationid": 4,
+    "price": 2333405,
+    "year": 2014
+  },
+  {
+    "id": 41,
+    "locationid": 211,
+    "price": 2972493,
+    "year": 2014
+  },
+  {
+    "id": 42,
+    "locationid": 114,
+    "price": 3358992,
+    "year": 2014
+  },
+  {
+    "id": 43,
+    "locationid": 113,
+    "price": 4376508,
+    "year": 2014
+  },
+  {
+    "id": 44,
+    "locationid": 125,
+    "price": 3204463,
+    "year": 2014
+  },
+  {
+    "id": 45,
+    "locationid": 48,
+    "price": 1613275,
+    "year": 2014
+  },
+  {
+    "id": 46,
+    "locationid": 161,
+    "price": 13775841,
+    "year": 2014
+  },
+  {
+    "id": 47,
+    "locationid": 237,
+    "price": 5081023,
+    "year": 2014
+  },
+  {
+    "id": 48,
+    "locationid": 75,
+    "price": 2659201,
+    "year": 2014
+  },
+  {
+    "id": 49,
+    "locationid": 41,
+    "price": 799990,
+    "year": 2014
+  },
+  {
+    "id": 50,
+    "locationid": 42,
+    "price": 1093509,
+    "year": 2014
+  },
+  {
+    "id": 51,
+    "locationid": 244,
+    "price": 2599393,
+    "year": 2014
+  },
+  {
+    "id": 52,
+    "locationid": 243,
+    "price": 2018482,
+    "year": 2014
+  },
+  {
+    "id": 53,
+    "locationid": 127,
+    "price": 2238960,
+    "year": 2014
+  },
+  {
+    "id": 54,
+    "locationid": 88,
+    "price": 6468418,
+    "year": 2013
+  },
+  {
+    "id": 55,
+    "locationid": 144,
+    "price": 2143491,
+    "year": 2013
+  },
+  {
+    "id": 56,
+    "locationid": 186,
+    "price": 8181616,
+    "year": 2013
+  },
+  {
+    "id": 57,
+    "locationid": 234,
+    "price": 3324782,
+    "year": 2013
+  },
+  {
+    "id": 58,
+    "locationid": 164,
+    "price": 5871140,
+    "year": 2013
+  },
+  {
+    "id": 59,
+    "locationid": 50,
+    "price": 2308624,
+    "year": 2013
+  },
+  {
+    "id": 60,
+    "locationid": 238,
+    "price": 1777388,
+    "year": 2013
+  },
+  {
+    "id": 61,
+    "locationid": 75,
+    "price": 2528197,
+    "year": 2013
+  },
+  {
+    "id": 62,
+    "locationid": 41,
+    "price": 772216,
+    "year": 2013
+  },
+  {
+    "id": 63,
+    "locationid": 42,
+    "price": 1064942,
+    "year": 2013
+  },
+  {
+    "id": 64,
+    "locationid": 152,
+    "price": 2893094,
+    "year": 2013
+  },
+  {
+    "id": 65,
+    "locationid": 244,
+    "price": 2411602,
+    "year": 2013
+  },
+  {
+    "id": 66,
+    "locationid": 127,
+    "price": 2086354,
+    "year": 2013
+  },
+  {
+    "id": 67,
+    "locationid": 88,
+    "price": 6178823,
+    "year": 2012
+  },
+  {
+    "id": 68,
+    "locationid": 114,
+    "price": 3084405,
+    "year": 2012
+  },
+  {
+    "id": 69,
+    "locationid": 113,
+    "price": 3893604,
+    "year": 2012
+  },
+  {
+    "id": 70,
+    "locationid": 75,
+    "price": 2303210,
+    "year": 2012
+  },
+  {
+    "id": 71,
+    "locationid": 249,
+    "price": 2181460,
+    "year": 2012
+  },
+  {
+    "id": 72,
+    "locationid": 186,
+    "price": 7720174,
+    "year": 2012
+  },
+  {
+    "id": 73,
+    "locationid": 233,
+    "price": 1586234,
+    "year": 2012
+  },
+  {
+    "id": 74,
+    "locationid": 238,
+    "price": 1733753,
+    "year": 2012
+  },
+  {
+    "id": 75,
+    "locationid": 74,
+    "price": 1404505,
+    "year": 2012
+  },
+  {
+    "id": 76,
+    "locationid": 42,
+    "price": 1021192,
+    "year": 2012
+  },
+  {
+    "id": 77,
+    "locationid": 151,
+    "price": 842050,
+    "year": 2012
+  },
+  {
+    "id": 78,
+    "locationid": 41,
+    "price": 727405,
+    "year": 2012
+  },
+  {
+    "id": 79,
+    "locationid": 116,
+    "price": 915085,
+    "year": 2012
+  },
+  {
+    "id": 80,
+    "locationid": 244,
+    "price": 2262283,
+    "year": 2012
+  },
+  {
+    "id": 81,
+    "locationid": 231,
+    "price": 1790079,
+    "year": 2010
+  },
+  {
+    "id": 82,
+    "locationid": 148,
+    "price": 1494843,
+    "year": 2010
+  },
+  {
+    "id": 83,
+    "locationid": 79,
+    "price": 1994421,
+    "year": 2010
+  },
+  {
+    "id": 84,
+    "locationid": 211,
+    "price": 2510672,
+    "year": 2010
+  },
+  {
+    "id": 85,
+    "locationid": 114,
+    "price": 2813794,
+    "year": 2010
+  },
+  {
+    "id": 86,
+    "locationid": 125,
+    "price": 3535097,
+    "year": 2010
+  },
+  {
+    "id": 87,
+    "locationid": 186,
+    "price": 6246490,
+    "year": 2010
+  },
+  {
+    "id": 88,
+    "locationid": 164,
+    "price": 5123324,
+    "year": 2010
+  },
+  {
+    "id": 89,
+    "locationid": 137,
+    "price": 1790781,
+    "year": 2010
+  },
+  {
+    "id": 90,
+    "locationid": 48,
+    "price": 1277858,
+    "year": 2010
+  },
+  {
+    "id": 91,
+    "locationid": 143,
+    "price": 1055530,
+    "year": 2010
+  },
+  {
+    "id": 92,
+    "locationid": 238,
+    "price": 1576323,
+    "year": 2010
+  },
+  {
+    "id": 93,
+    "locationid": 229,
+    "price": 2397051,
+    "year": 2010
+  },
+  {
+    "id": 94,
+    "locationid": 202,
+    "price": 1876629,
+    "year": 2010
+  },
+  {
+    "id": 95,
+    "locationid": 75,
+    "price": 2287777,
+    "year": 2010
+  },
+  {
+    "id": 96,
+    "locationid": 42,
+    "price": 985100,
+    "year": 2010
+  },
+  {
+    "id": 97,
+    "locationid": 166,
+    "price": 4925191,
+    "year": 2010
+  },
+  {
+    "id": 98,
+    "locationid": 41,
+    "price": 823266,
+    "year": 2010
+  },
+  {
+    "id": 99,
+    "locationid": 244,
+    "price": 1968804,
+    "year": 2010
+  },
+  {
+    "id": 100,
+    "locationid": 127,
+    "price": 1759918,
+    "year": 2010
+  },
+  {
+    "id": 101,
+    "locationid": 79,
+    "price": 1948011,
+    "year": 2011
+  },
+  {
+    "id": 102,
+    "locationid": 113,
+    "price": 3662717,
+    "year": 2011
+  },
+  {
+    "id": 103,
+    "locationid": 164,
+    "price": 5108942,
+    "year": 2011
+  },
+  {
+    "id": 104,
+    "locationid": 224,
+    "price": 191626067,
+    "year": 2011
+  },
+  {
+    "id": 105,
+    "locationid": 48,
+    "price": 1302196,
+    "year": 2011
+  },
+  {
+    "id": 106,
+    "locationid": 142,
+    "price": 1431744,
+    "year": 2011
+  },
+  {
+    "id": 107,
+    "locationid": 238,
+    "price": 1621977,
+    "year": 2011
+  },
+  {
+    "id": 108,
+    "locationid": 42,
+    "price": 973949,
+    "year": 2011
+  },
+  {
+    "id": 109,
+    "locationid": 262,
+    "price": 2314839,
+    "year": 2011
+  },
+  {
+    "id": 110,
+    "locationid": 41,
+    "price": 730495,
+    "year": 2011
+  },
+  {
+    "id": 111,
+    "locationid": 166,
+    "price": 5148659,
+    "year": 2011
+  },
+  {
+    "id": 112,
+    "locationid": 153,
+    "price": 1154524,
+    "year": 2011
+  },
+  {
+    "id": 113,
+    "locationid": 231,
+    "price": 2442145,
+    "year": 2018
+  },
+  {
+    "id": 114,
+    "locationid": 13,
+    "price": 1868390,
+    "year": 2018
+  },
+  {
+    "id": 115,
+    "locationid": 87,
+    "price": 3585259,
+    "year": 2018
+  },
+  {
+    "id": 116,
+    "locationid": 88,
+    "price": 7609956,
+    "year": 2018
+  },
+  {
+    "id": 117,
+    "locationid": 144,
+    "price": 3281443,
+    "year": 2018
+  },
+  {
+    "id": 118,
+    "locationid": 45,
+    "price": 2624854,
+    "year": 2018
+  },
+  {
+    "id": 119,
+    "locationid": 209,
+    "price": 3893035,
+    "year": 2018
+  },
+  {
+    "id": 120,
+    "locationid": 261,
+    "price": 5199926,
+    "year": 2018
+  },
+  {
+    "id": 121,
+    "locationid": 103,
+    "price": 218275667,
+    "year": 2018
+  },
+  {
+    "id": 122,
+    "locationid": 113,
+    "price": 5884879,
+    "year": 2018
+  },
+  {
+    "id": 123,
+    "locationid": 232,
+    "price": 4465838,
+    "year": 2018
+  },
+  {
+    "id": 124,
+    "locationid": 148,
+    "price": 2120531,
+    "year": 2018
+  },
+  {
+    "id": 125,
+    "locationid": 12,
+    "price": 168710333,
+    "year": 2018
+  },
+  {
+    "id": 126,
+    "locationid": 79,
+    "price": 2778356,
+    "year": 2018
+  },
+  {
+    "id": 127,
+    "locationid": 158,
+    "price": 4322502,
+    "year": 2018
+  },
+  {
+    "id": 128,
+    "locationid": 114,
+    "price": 4362592,
+    "year": 2018
+  },
+  {
+    "id": 129,
+    "locationid": 125,
+    "price": 4423632,
+    "year": 2018
+  },
+  {
+    "id": 130,
+    "locationid": 164,
+    "price": 7031543,
+    "year": 2018
+  },
+  {
+    "id": 131,
+    "locationid": 249,
+    "price": 3261515,
+    "year": 2018
+  },
+  {
+    "id": 132,
+    "locationid": 107,
+    "price": 3252232,
+    "year": 2018
+  },
+  {
+    "id": 133,
+    "locationid": 48,
+    "price": 1960421,
+    "year": 2018
+  },
+  {
+    "id": 134,
+    "locationid": 163,
+    "price": 5649371,
+    "year": 2018
+  },
+  {
+    "id": 135,
+    "locationid": 50,
+    "price": 4146256,
+    "year": 2018
+  },
+  {
+    "id": 136,
+    "locationid": 239,
+    "price": 3126700,
+    "year": 2018
+  },
+  {
+    "id": 137,
+    "locationid": 142,
+    "price": 2084264,
+    "year": 2018
+  },
+  {
+    "id": 138,
+    "locationid": 211,
+    "price": 3880504,
+    "year": 2018
+  },
+  {
+    "id": 139,
+    "locationid": 4,
+    "price": 2863934,
+    "year": 2018
+  },
+  {
+    "id": 140,
+    "locationid": 224,
+    "price": 442124600,
+    "year": 2018
+  },
+  {
+    "id": 141,
+    "locationid": 170,
+    "price": 3246985,
+    "year": 2018
+  },
+  {
+    "id": 142,
+    "locationid": 234,
+    "price": 4221549,
+    "year": 2018
+  },
+  {
+    "id": 143,
+    "locationid": 90,
+    "price": 2233720,
+    "year": 2018
+  },
+  {
+    "id": 144,
+    "locationid": 68,
+    "price": 6361913,
+    "year": 2018
+  },
+  {
+    "id": 145,
+    "locationid": 246,
+    "price": 5756702,
+    "year": 2018
+  },
+  {
+    "id": 146,
+    "locationid": 186,
+    "price": 11976049,
+    "year": 2018
+  },
+  {
+    "id": 147,
+    "locationid": 100,
+    "price": 31676889,
+    "year": 2018
+  },
+  {
+    "id": 148,
+    "locationid": 143,
+    "price": 1747693,
+    "year": 2018
+  },
+  {
+    "id": 149,
+    "locationid": 137,
+    "price": 2908672,
+    "year": 2018
+  },
+  {
+    "id": 150,
+    "locationid": 233,
+    "price": 2145858,
+    "year": 2018
+  },
+  {
+    "id": 151,
+    "locationid": 230,
+    "price": 17464912,
+    "year": 2018
+  },
+  {
+    "id": 152,
+    "locationid": 43,
+    "price": 74663895,
+    "year": 2018
+  },
+  {
+    "id": 153,
+    "locationid": 161,
+    "price": 17414792,
+    "year": 2018
+  },
+  {
+    "id": 154,
+    "locationid": 238,
+    "price": 2276759,
+    "year": 2018
+  },
+  {
+    "id": 155,
+    "locationid": 229,
+    "price": 3074366,
+    "year": 2018
+  },
+  {
+    "id": 156,
+    "locationid": 162,
+    "price": 15928689,
+    "year": 2018
+  },
+  {
+    "id": 157,
+    "locationid": 151,
+    "price": 1283201,
+    "year": 2018
+  },
+  {
+    "id": 158,
+    "locationid": 263,
+    "price": 1307862,
+    "year": 2018
+  },
+  {
+    "id": 159,
+    "locationid": 75,
+    "price": 3212291,
+    "year": 2018
+  },
+  {
+    "id": 160,
+    "locationid": 262,
+    "price": 2929378,
+    "year": 2018
+  },
+  {
+    "id": 161,
+    "locationid": 116,
+    "price": 1574619,
+    "year": 2018
+  },
+  {
+    "id": 162,
+    "locationid": 140,
+    "price": 2755956,
+    "year": 2018
+  },
+  {
+    "id": 163,
+    "locationid": 141,
+    "price": 2198524,
+    "year": 2018
+  },
+  {
+    "id": 164,
+    "locationid": 236,
+    "price": 4196608,
+    "year": 2018
+  },
+  {
+    "id": 165,
+    "locationid": 237,
+    "price": 6820650,
+    "year": 2018
+  },
+  {
+    "id": 166,
+    "locationid": 202,
+    "price": 3637897,
+    "year": 2018
+  },
+  {
+    "id": 167,
+    "locationid": 243,
+    "price": 2436339,
+    "year": 2018
+  },
+  {
+    "id": 168,
+    "locationid": 41,
+    "price": 1220901,
+    "year": 2018
+  },
+  {
+    "id": 169,
+    "locationid": 194,
+    "price": 62929667,
+    "year": 2018
+  },
+  {
+    "id": 170,
+    "locationid": 24,
+    "price": 1302008,
+    "year": 2018
+  },
+  {
+    "id": 171,
+    "locationid": 152,
+    "price": 6160624,
+    "year": 2018
+  },
+  {
+    "id": 172,
+    "locationid": 166,
+    "price": 6995755,
+    "year": 2018
+  },
+  {
+    "id": 173,
+    "locationid": 120,
+    "price": 10925000,
+    "year": 2018
+  },
+  {
+    "id": 174,
+    "locationid": 153,
+    "price": 1662306,
+    "year": 2018
+  },
+  {
+    "id": 175,
+    "locationid": 128,
+    "price": 43685625,
+    "year": 2018
+  },
+  {
+    "id": 176,
+    "locationid": 141,
+    "price": 2114948,
+    "year": 2017
+  },
+  {
+    "id": 177,
+    "locationid": 233,
+    "price": 1980314,
+    "year": 2017
+  },
+  {
+    "id": 178,
+    "locationid": 162,
+    "price": 15819613,
+    "year": 2017
+  },
+  {
+    "id": 179,
+    "locationid": 237,
+    "price": 6495787,
+    "year": 2017
+  },
+  {
+    "id": 180,
+    "locationid": 148,
+    "price": 2148453,
+    "year": 2017
+  },
+  {
+    "id": 181,
+    "locationid": 232,
+    "price": 4222955,
+    "year": 2017
+  },
+  {
+    "id": 182,
+    "locationid": 79,
+    "price": 2639295,
+    "year": 2017
+  },
+  {
+    "id": 183,
+    "locationid": 87,
+    "price": 3382156,
+    "year": 2017
+  },
+  {
+    "id": 184,
+    "locationid": 13,
+    "price": 1818246,
+    "year": 2017
+  },
+  {
+    "id": 185,
+    "locationid": 68,
+    "price": 5765029,
+    "year": 2017
+  },
+  {
+    "id": 186,
+    "locationid": 114,
+    "price": 4022250,
+    "year": 2017
+  },
+  {
+    "id": 187,
+    "locationid": 249,
+    "price": 3097285,
+    "year": 2017
+  },
+  {
+    "id": 188,
+    "locationid": 211,
+    "price": 3642192,
+    "year": 2017
+  },
+  {
+    "id": 189,
+    "locationid": 186,
+    "price": 11252411,
+    "year": 2017
+  },
+  {
+    "id": 190,
+    "locationid": 90,
+    "price": 2032174,
+    "year": 2017
+  },
+  {
+    "id": 191,
+    "locationid": 158,
+    "price": 4183364,
+    "year": 2017
+  },
+  {
+    "id": 192,
+    "locationid": 261,
+    "price": 4920675,
+    "year": 2017
+  },
+  {
+    "id": 193,
+    "locationid": 88,
+    "price": 7352016,
+    "year": 2017
+  },
+  {
+    "id": 194,
+    "locationid": 209,
+    "price": 3365326,
+    "year": 2017
+  },
+  {
+    "id": 195,
+    "locationid": 103,
+    "price": 211691333,
+    "year": 2017
+  },
+  {
+    "id": 196,
+    "locationid": 12,
+    "price": 160598333,
+    "year": 2017
+  },
+  {
+    "id": 197,
+    "locationid": 263,
+    "price": 1270068,
+    "year": 2017
+  },
+  {
+    "id": 198,
+    "locationid": 140,
+    "price": 2610494,
+    "year": 2017
+  },
+  {
+    "id": 199,
+    "locationid": 262,
+    "price": 2795474,
+    "year": 2017
+  },
+  {
+    "id": 200,
+    "locationid": 231,
+    "price": 2345678,
+    "year": 2017
+  },
+  {
+    "id": 201,
+    "locationid": 144,
+    "price": 3069232,
+    "year": 2017
+  },
+  {
+    "id": 202,
+    "locationid": 4,
+    "price": 2653427,
+    "year": 2017
+  },
+  {
+    "id": 203,
+    "locationid": 45,
+    "price": 2427639,
+    "year": 2017
+  },
+  {
+    "id": 204,
+    "locationid": 224,
+    "price": 367737800,
+    "year": 2017
+  },
+  {
+    "id": 205,
+    "locationid": 113,
+    "price": 5272109,
+    "year": 2017
+  },
+  {
+    "id": 206,
+    "locationid": 170,
+    "price": 3178902,
+    "year": 2017
+  },
+  {
+    "id": 207,
+    "locationid": 137,
+    "price": 2865097,
+    "year": 2017
+  },
+  {
+    "id": 208,
+    "locationid": 246,
+    "price": 5619204,
+    "year": 2017
+  },
+  {
+    "id": 209,
+    "locationid": 100,
+    "price": 29600889,
+    "year": 2017
+  },
+  {
+    "id": 210,
+    "locationid": 50,
+    "price": 3781617,
+    "year": 2017
+  },
+  {
+    "id": 211,
+    "locationid": 238,
+    "price": 2207618,
+    "year": 2017
+  },
+  {
+    "id": 212,
+    "locationid": 142,
+    "price": 1994573,
+    "year": 2017
+  },
+  {
+    "id": 213,
+    "locationid": 163,
+    "price": 5374022,
+    "year": 2017
+  },
+  {
+    "id": 214,
+    "locationid": 230,
+    "price": 16777391,
+    "year": 2017
+  },
+  {
+    "id": 215,
+    "locationid": 239,
+    "price": 2933829,
+    "year": 2017
+  },
+  {
+    "id": 216,
+    "locationid": 164,
+    "price": 7328631,
+    "year": 2017
+  },
+  {
+    "id": 217,
+    "locationid": 43,
+    "price": 72509686,
+    "year": 2017
+  },
+  {
+    "id": 218,
+    "locationid": 143,
+    "price": 1695812,
+    "year": 2017
+  },
+  {
+    "id": 219,
+    "locationid": 161,
+    "price": 16484782,
+    "year": 2017
+  },
+  {
+    "id": 220,
+    "locationid": 151,
+    "price": 1216053,
+    "year": 2017
+  },
+  {
+    "id": 221,
+    "locationid": 236,
+    "price": 4117619,
+    "year": 2017
+  },
+  {
+    "id": 222,
+    "locationid": 202,
+    "price": 3279470,
+    "year": 2017
+  },
+  {
+    "id": 223,
+    "locationid": 41,
+    "price": 1125871,
+    "year": 2017
+  },
+  {
+    "id": 224,
+    "locationid": 74,
+    "price": 2049563,
+    "year": 2017
+  },
+  {
+    "id": 225,
+    "locationid": 24,
+    "price": 1215445,
+    "year": 2017
+  },
+  {
+    "id": 226,
+    "locationid": 152,
+    "price": 5770853,
+    "year": 2017
+  },
+  {
+    "id": 227,
+    "locationid": 166,
+    "price": 6644177,
+    "year": 2017
+  },
+  {
+    "id": 228,
+    "locationid": 194,
+    "price": 62148000,
+    "year": 2017
+  },
+  {
+    "id": 229,
+    "locationid": 116,
+    "price": 1405467,
+    "year": 2017
+  },
+  {
+    "id": 230,
+    "locationid": 153,
+    "price": 1583476,
+    "year": 2017
+  },
+  {
+    "id": 231,
+    "locationid": 128,
+    "price": 41753875,
+    "year": 2017
+  },
+  {
+    "id": 232,
+    "locationid": 120,
+    "price": 10096500,
+    "year": 2017
+  },
+  {
+    "id": 233,
+    "locationid": 13,
+    "price": 1736824,
+    "year": 2016
+  },
+  {
+    "id": 234,
+    "locationid": 87,
+    "price": 3263306,
+    "year": 2016
+  },
+  {
+    "id": 235,
+    "locationid": 88,
+    "price": 7090814,
+    "year": 2016
+  },
+  {
+    "id": 236,
+    "locationid": 79,
+    "price": 2526257,
+    "year": 2016
+  },
+  {
+    "id": 237,
+    "locationid": 209,
+    "price": 3463051,
+    "year": 2016
+  },
+  {
+    "id": 238,
+    "locationid": 231,
+    "price": 2218725,
+    "year": 2016
+  },
+  {
+    "id": 239,
+    "locationid": 261,
+    "price": 5282914,
+    "year": 2016
+  },
+  {
+    "id": 240,
+    "locationid": 45,
+    "price": 2322599,
+    "year": 2016
+  },
+  {
+    "id": 241,
+    "locationid": 148,
+    "price": 1957091,
+    "year": 2016
+  },
+  {
+    "id": 242,
+    "locationid": 232,
+    "price": 4022283,
+    "year": 2016
+  },
+  {
+    "id": 243,
+    "locationid": 114,
+    "price": 3830548,
+    "year": 2016
+  },
+  {
+    "id": 244,
+    "locationid": 249,
+    "price": 2821237,
+    "year": 2016
+  },
+  {
+    "id": 245,
+    "locationid": 48,
+    "price": 1839080,
+    "year": 2016
+  },
+  {
+    "id": 246,
+    "locationid": 113,
+    "price": 4983342,
+    "year": 2016
+  },
+  {
+    "id": 247,
+    "locationid": 238,
+    "price": 2028905,
+    "year": 2016
+  },
+  {
+    "id": 248,
+    "locationid": 239,
+    "price": 2783047,
+    "year": 2016
+  },
+  {
+    "id": 249,
+    "locationid": 163,
+    "price": 5161501,
+    "year": 2016
+  },
+  {
+    "id": 250,
+    "locationid": 161,
+    "price": 15618781,
+    "year": 2016
+  },
+  {
+    "id": 251,
+    "locationid": 143,
+    "price": 1586179,
+    "year": 2016
+  },
+  {
+    "id": 252,
+    "locationid": 103,
+    "price": 205302667,
+    "year": 2016
+  },
+  {
+    "id": 253,
+    "locationid": 12,
+    "price": 151101333,
+    "year": 2016
+  },
+  {
+    "id": 254,
+    "locationid": 68,
+    "price": 5383964,
+    "year": 2016
+  },
+  {
+    "id": 255,
+    "locationid": 125,
+    "price": 3642735,
+    "year": 2016
+  },
+  {
+    "id": 256,
+    "locationid": 90,
+    "price": 1899477,
+    "year": 2016
+  },
+  {
+    "id": 257,
+    "locationid": 4,
+    "price": 2607631,
+    "year": 2016
+  },
+  {
+    "id": 258,
+    "locationid": 211,
+    "price": 3316285,
+    "year": 2016
+  },
+  {
+    "id": 259,
+    "locationid": 224,
+    "price": 297897167,
+    "year": 2016
+  },
+  {
+    "id": 260,
+    "locationid": 233,
+    "price": 1910702,
+    "year": 2016
+  },
+  {
+    "id": 261,
+    "locationid": 186,
+    "price": 10485410,
+    "year": 2016
+  },
+  {
+    "id": 262,
+    "locationid": 170,
+    "price": 3018795,
+    "year": 2016
+  },
+  {
+    "id": 263,
+    "locationid": 246,
+    "price": 4596097,
+    "year": 2016
+  },
+  {
+    "id": 264,
+    "locationid": 137,
+    "price": 2709519,
+    "year": 2016
+  },
+  {
+    "id": 265,
+    "locationid": 50,
+    "price": 3381325,
+    "year": 2016
+  },
+  {
+    "id": 266,
+    "locationid": 100,
+    "price": 28122831,
+    "year": 2016
+  },
+  {
+    "id": 267,
+    "locationid": 164,
+    "price": 6890754,
+    "year": 2016
+  },
+  {
+    "id": 268,
+    "locationid": 107,
+    "price": 3248186,
+    "year": 2016
+  },
+  {
+    "id": 269,
+    "locationid": 43,
+    "price": 70345390,
+    "year": 2016
+  },
+  {
+    "id": 270,
+    "locationid": 263,
+    "price": 1204378,
+    "year": 2016
+  },
+  {
+    "id": 271,
+    "locationid": 262,
+    "price": 2673511,
+    "year": 2016
+  },
+  {
+    "id": 272,
+    "locationid": 141,
+    "price": 2053599,
+    "year": 2016
+  },
+  {
+    "id": 273,
+    "locationid": 229,
+    "price": 3032230,
+    "year": 2016
+  },
+  {
+    "id": 274,
+    "locationid": 162,
+    "price": 15255958,
+    "year": 2016
+  },
+  {
+    "id": 275,
+    "locationid": 166,
+    "price": 6400452,
+    "year": 2016
+  },
+  {
+    "id": 276,
+    "locationid": 151,
+    "price": 1133415,
+    "year": 2016
+  },
+  {
+    "id": 277,
+    "locationid": 140,
+    "price": 2519595,
+    "year": 2016
+  },
+  {
+    "id": 278,
+    "locationid": 41,
+    "price": 978572,
+    "year": 2016
+  },
+  {
+    "id": 279,
+    "locationid": 236,
+    "price": 3780391,
+    "year": 2016
+  },
+  {
+    "id": 280,
+    "locationid": 237,
+    "price": 6051067,
+    "year": 2016
+  },
+  {
+    "id": 281,
+    "locationid": 202,
+    "price": 3050905,
+    "year": 2016
+  },
+  {
+    "id": 282,
+    "locationid": 74,
+    "price": 1910224,
+    "year": 2016
+  },
+  {
+    "id": 283,
+    "locationid": 75,
+    "price": 3018709,
+    "year": 2016
+  },
+  {
+    "id": 284,
+    "locationid": 152,
+    "price": 5322436,
+    "year": 2016
+  },
+  {
+    "id": 285,
+    "locationid": 116,
+    "price": 1246588,
+    "year": 2016
+  },
+  {
+    "id": 286,
+    "locationid": 24,
+    "price": 1107304,
+    "year": 2016
+  },
+  {
+    "id": 287,
+    "locationid": 194,
+    "price": 60397333,
+    "year": 2016
+  },
+  {
+    "id": 288,
+    "locationid": 243,
+    "price": 2294433,
+    "year": 2016
+  },
+  {
+    "id": 289,
+    "locationid": 153,
+    "price": 1430523,
+    "year": 2016
+  },
+  {
+    "id": 290,
+    "locationid": 128,
+    "price": 40259715,
+    "year": 2016
+  },
+  {
+    "id": 291,
+    "locationid": 120,
+    "price": 9654500,
+    "year": 2016
+  },
+  {
+    "id": 292,
+    "locationid": 74,
+    "price": 1742640,
+    "year": 2015
+  },
+  {
+    "id": 293,
+    "locationid": 263,
+    "price": 1204444,
+    "year": 2015
+  },
+  {
+    "id": 294,
+    "locationid": 151,
+    "price": 1012999,
+    "year": 2015
+  },
+  {
+    "id": 295,
+    "locationid": 262,
+    "price": 2506706,
+    "year": 2015
+  },
+  {
+    "id": 296,
+    "locationid": 209,
+    "price": 3082981,
+    "year": 2015
+  },
+  {
+    "id": 297,
+    "locationid": 79,
+    "price": 2358381,
+    "year": 2015
+  },
+  {
+    "id": 298,
+    "locationid": 232,
+    "price": 3904493,
+    "year": 2015
+  },
+  {
+    "id": 299,
+    "locationid": 211,
+    "price": 3279364,
+    "year": 2015
+  },
+  {
+    "id": 300,
+    "locationid": 231,
+    "price": 2203276,
+    "year": 2015
+  },
+  {
+    "id": 301,
+    "locationid": 144,
+    "price": 2539462,
+    "year": 2015
+  },
+  {
+    "id": 302,
+    "locationid": 113,
+    "price": 4686887,
+    "year": 2015
+  },
+  {
+    "id": 303,
+    "locationid": 4,
+    "price": 2573851,
+    "year": 2015
+  },
+  {
+    "id": 304,
+    "locationid": 114,
+    "price": 3579855,
+    "year": 2015
+  },
+  {
+    "id": 305,
+    "locationid": 125,
+    "price": 3413529,
+    "year": 2015
+  },
+  {
+    "id": 306,
+    "locationid": 13,
+    "price": 1807034,
+    "year": 2015
+  },
+  {
+    "id": 307,
+    "locationid": 87,
+    "price": 3101599,
+    "year": 2015
+  },
+  {
+    "id": 308,
+    "locationid": 88,
+    "price": 6700406,
+    "year": 2015
+  },
+  {
+    "id": 309,
+    "locationid": 12,
+    "price": 143206333,
+    "year": 2015
+  },
+  {
+    "id": 310,
+    "locationid": 103,
+    "price": 199087000,
+    "year": 2015
+  },
+  {
+    "id": 311,
+    "locationid": 50,
+    "price": 3006503,
+    "year": 2015
+  },
+  {
+    "id": 312,
+    "locationid": 224,
+    "price": 274386667,
+    "year": 2015
+  },
+  {
+    "id": 313,
+    "locationid": 170,
+    "price": 2864426,
+    "year": 2015
+  },
+  {
+    "id": 314,
+    "locationid": 68,
+    "price": 4947333,
+    "year": 2015
+  },
+  {
+    "id": 315,
+    "locationid": 186,
+    "price": 9730644,
+    "year": 2015
+  },
+  {
+    "id": 316,
+    "locationid": 246,
+    "price": 4520491,
+    "year": 2015
+  },
+  {
+    "id": 317,
+    "locationid": 164,
+    "price": 6417463,
+    "year": 2015
+  },
+  {
+    "id": 318,
+    "locationid": 90,
+    "price": 1808648,
+    "year": 2015
+  },
+  {
+    "id": 319,
+    "locationid": 100,
+    "price": 26048416,
+    "year": 2015
+  },
+  {
+    "id": 320,
+    "locationid": 236,
+    "price": 3467187,
+    "year": 2015
+  },
+  {
+    "id": 321,
+    "locationid": 202,
+    "price": 2916118,
+    "year": 2015
+  },
+  {
+    "id": 322,
+    "locationid": 163,
+    "price": 4943130,
+    "year": 2015
+  },
+  {
+    "id": 323,
+    "locationid": 137,
+    "price": 2502984,
+    "year": 2015
+  },
+  {
+    "id": 324,
+    "locationid": 107,
+    "price": 3044579,
+    "year": 2015
+  },
+  {
+    "id": 325,
+    "locationid": 230,
+    "price": 16586233,
+    "year": 2015
+  },
+  {
+    "id": 326,
+    "locationid": 143,
+    "price": 1478910,
+    "year": 2015
+  },
+  {
+    "id": 327,
+    "locationid": 142,
+    "price": 1782635,
+    "year": 2015
+  },
+  {
+    "id": 328,
+    "locationid": 239,
+    "price": 2700851,
+    "year": 2015
+  },
+  {
+    "id": 329,
+    "locationid": 166,
+    "price": 5950621,
+    "year": 2015
+  },
+  {
+    "id": 330,
+    "locationid": 43,
+    "price": 68242571,
+    "year": 2015
+  },
+  {
+    "id": 331,
+    "locationid": 243,
+    "price": 2164917,
+    "year": 2015
+  },
+  {
+    "id": 332,
+    "locationid": 24,
+    "price": 1012272,
+    "year": 2015
+  },
+  {
+    "id": 333,
+    "locationid": 116,
+    "price": 1111047,
+    "year": 2015
+  },
+  {
+    "id": 334,
+    "locationid": 128,
+    "price": 38788250,
+    "year": 2015
+  },
+  {
+    "id": 335,
+    "locationid": 229,
+    "price": 2992846,
+    "year": 2015
+  },
+  {
+    "id": 336,
+    "locationid": 238,
+    "price": 1927594,
+    "year": 2015
+  },
+  {
+    "id": 337,
+    "locationid": 162,
+    "price": 14514821,
+    "year": 2015
+  },
+  {
+    "id": 338,
+    "locationid": 161,
+    "price": 14693598,
+    "year": 2015
+  },
+  {
+    "id": 339,
+    "locationid": 140,
+    "price": 2379614,
+    "year": 2015
+  },
+  {
+    "id": 340,
+    "locationid": 194,
+    "price": 58561333,
+    "year": 2015
+  },
+  {
+    "id": 341,
+    "locationid": 153,
+    "price": 1383513,
+    "year": 2015
+  },
+  {
+    "id": 342,
+    "locationid": 120,
+    "price": 9112000,
+    "year": 2015
+  },
+  {
+    "id": 343,
+    "locationid": 148,
+    "price": 1706220,
+    "year": 2014
+  },
+  {
+    "id": 344,
+    "locationid": 79,
+    "price": 2189064,
+    "year": 2014
+  },
+  {
+    "id": 345,
+    "locationid": 13,
+    "price": 1694794,
+    "year": 2014
+  },
+  {
+    "id": 346,
+    "locationid": 87,
+    "price": 3016262,
+    "year": 2014
+  },
+  {
+    "id": 347,
+    "locationid": 88,
+    "price": 6545645,
+    "year": 2014
+  },
+  {
+    "id": 348,
+    "locationid": 103,
+    "price": 193995000,
+    "year": 2014
+  },
+  {
+    "id": 349,
+    "locationid": 12,
+    "price": 151358333,
+    "year": 2014
+  },
+  {
+    "id": 350,
+    "locationid": 68,
+    "price": 4681498,
+    "year": 2014
+  },
+  {
+    "id": 351,
+    "locationid": 249,
+    "price": 2390041,
+    "year": 2014
+  },
+  {
+    "id": 352,
+    "locationid": 90,
+    "price": 1710426,
+    "year": 2014
+  },
+  {
+    "id": 353,
+    "locationid": 100,
+    "price": 24645542,
+    "year": 2014
+  },
+  {
+    "id": 354,
+    "locationid": 144,
+    "price": 2365986,
+    "year": 2014
+  },
+  {
+    "id": 355,
+    "locationid": 158,
+    "price": 3512822,
+    "year": 2014
+  },
+  {
+    "id": 356,
+    "locationid": 186,
+    "price": 9329205,
+    "year": 2014
+  },
+  {
+    "id": 357,
+    "locationid": 209,
+    "price": 2989634,
+    "year": 2014
+  },
+  {
+    "id": 358,
+    "locationid": 231,
+    "price": 2122409,
+    "year": 2014
+  },
+  {
+    "id": 359,
+    "locationid": 232,
+    "price": 3505679,
+    "year": 2014
+  },
+  {
+    "id": 360,
+    "locationid": 45,
+    "price": 2179488,
+    "year": 2014
+  },
+  {
+    "id": 361,
+    "locationid": 224,
+    "price": 244532667,
+    "year": 2014
+  },
+  {
+    "id": 362,
+    "locationid": 246,
+    "price": 4024028,
+    "year": 2014
+  },
+  {
+    "id": 363,
+    "locationid": 107,
+    "price": 2888918,
+    "year": 2014
+  },
+  {
+    "id": 364,
+    "locationid": 170,
+    "price": 2838045,
+    "year": 2014
+  },
+  {
+    "id": 365,
+    "locationid": 137,
+    "price": 2274767,
+    "year": 2014
+  },
+  {
+    "id": 366,
+    "locationid": 234,
+    "price": 3611036,
+    "year": 2014
+  },
+  {
+    "id": 367,
+    "locationid": 233,
+    "price": 1730050,
+    "year": 2014
+  },
+  {
+    "id": 368,
+    "locationid": 164,
+    "price": 6349056,
+    "year": 2014
+  },
+  {
+    "id": 369,
+    "locationid": 230,
+    "price": 15822711,
+    "year": 2014
+  },
+  {
+    "id": 370,
+    "locationid": 163,
+    "price": 4531025,
+    "year": 2014
+  },
+  {
+    "id": 371,
+    "locationid": 142,
+    "price": 1649027,
+    "year": 2014
+  },
+  {
+    "id": 372,
+    "locationid": 239,
+    "price": 2509830,
+    "year": 2014
+  },
+  {
+    "id": 373,
+    "locationid": 50,
+    "price": 2792773,
+    "year": 2014
+  },
+  {
+    "id": 374,
+    "locationid": 143,
+    "price": 1369629,
+    "year": 2014
+  },
+  {
+    "id": 375,
+    "locationid": 43,
+    "price": 66235273,
+    "year": 2014
+  },
+  {
+    "id": 376,
+    "locationid": 238,
+    "price": 1767704,
+    "year": 2014
+  },
+  {
+    "id": 377,
+    "locationid": 141,
+    "price": 1861843,
+    "year": 2014
+  },
+  {
+    "id": 378,
+    "locationid": 229,
+    "price": 2793571,
+    "year": 2014
+  },
+  {
+    "id": 379,
+    "locationid": 140,
+    "price": 2226476,
+    "year": 2014
+  },
+  {
+    "id": 380,
+    "locationid": 202,
+    "price": 2815439,
+    "year": 2014
+  },
+  {
+    "id": 381,
+    "locationid": 162,
+    "price": 13672086,
+    "year": 2014
+  },
+  {
+    "id": 382,
+    "locationid": 151,
+    "price": 945459,
+    "year": 2014
+  },
+  {
+    "id": 383,
+    "locationid": 166,
+    "price": 5609750,
+    "year": 2014
+  },
+  {
+    "id": 384,
+    "locationid": 236,
+    "price": 3215183,
+    "year": 2014
+  },
+  {
+    "id": 385,
+    "locationid": 24,
+    "price": 947250,
+    "year": 2014
+  },
+  {
+    "id": 386,
+    "locationid": 74,
+    "price": 1614365,
+    "year": 2014
+  },
+  {
+    "id": 387,
+    "locationid": 116,
+    "price": 1012935,
+    "year": 2014
+  },
+  {
+    "id": 388,
+    "locationid": 152,
+    "price": 4467930,
+    "year": 2014
+  },
+  {
+    "id": 389,
+    "locationid": 263,
+    "price": 1118514,
+    "year": 2014
+  },
+  {
+    "id": 390,
+    "locationid": 262,
+    "price": 2311594,
+    "year": 2014
+  },
+  {
+    "id": 391,
+    "locationid": 120,
+    "price": 8786500,
+    "year": 2014
+  },
+  {
+    "id": 392,
+    "locationid": 194,
+    "price": 56442000,
+    "year": 2014
+  },
+  {
+    "id": 393,
+    "locationid": 153,
+    "price": 1348215,
+    "year": 2014
+  },
+  {
+    "id": 394,
+    "locationid": 128,
+    "price": 37805865,
+    "year": 2014
+  },
+  {
+    "id": 395,
+    "locationid": 13,
+    "price": 1500003,
+    "year": 2013
+  },
+  {
+    "id": 396,
+    "locationid": 79,
+    "price": 2113670,
+    "year": 2013
+  },
+  {
+    "id": 397,
+    "locationid": 148,
+    "price": 1582760,
+    "year": 2013
+  },
+  {
+    "id": 398,
+    "locationid": 114,
+    "price": 3093486,
+    "year": 2013
+  },
+  {
+    "id": 399,
+    "locationid": 249,
+    "price": 2239253,
+    "year": 2013
+  },
+  {
+    "id": 400,
+    "locationid": 113,
+    "price": 4038303,
+    "year": 2013
+  },
+  {
+    "id": 401,
+    "locationid": 107,
+    "price": 2834786,
+    "year": 2013
+  },
+  {
+    "id": 402,
+    "locationid": 142,
+    "price": 1560302,
+    "year": 2013
+  },
+  {
+    "id": 403,
+    "locationid": 48,
+    "price": 1481196,
+    "year": 2013
+  },
+  {
+    "id": 404,
+    "locationid": 232,
+    "price": 3238323,
+    "year": 2013
+  },
+  {
+    "id": 405,
+    "locationid": 261,
+    "price": 4023797,
+    "year": 2013
+  },
+  {
+    "id": 406,
+    "locationid": 103,
+    "price": 184231000,
+    "year": 2013
+  },
+  {
+    "id": 407,
+    "locationid": 12,
+    "price": 147588592,
+    "year": 2013
+  },
+  {
+    "id": 408,
+    "locationid": 87,
+    "price": 2831676,
+    "year": 2013
+  },
+  {
+    "id": 409,
+    "locationid": 231,
+    "price": 2028407,
+    "year": 2013
+  },
+  {
+    "id": 410,
+    "locationid": 45,
+    "price": 2057656,
+    "year": 2013
+  },
+  {
+    "id": 411,
+    "locationid": 4,
+    "price": 2028052,
+    "year": 2013
+  },
+  {
+    "id": 412,
+    "locationid": 209,
+    "price": 2843527,
+    "year": 2013
+  },
+  {
+    "id": 413,
+    "locationid": 211,
+    "price": 2629134,
+    "year": 2013
+  },
+  {
+    "id": 414,
+    "locationid": 224,
+    "price": 174840610,
+    "year": 2013
+  },
+  {
+    "id": 415,
+    "locationid": 125,
+    "price": 2883401,
+    "year": 2013
+  },
+  {
+    "id": 416,
+    "locationid": 233,
+    "price": 1660656,
+    "year": 2013
+  },
+  {
+    "id": 417,
+    "locationid": 90,
+    "price": 1617685,
+    "year": 2013
+  },
+  {
+    "id": 418,
+    "locationid": 170,
+    "price": 2733526,
+    "year": 2013
+  },
+  {
+    "id": 419,
+    "locationid": 100,
+    "price": 22864541,
+    "year": 2013
+  },
+  {
+    "id": 420,
+    "locationid": 137,
+    "price": 2157025,
+    "year": 2013
+  },
+  {
+    "id": 421,
+    "locationid": 68,
+    "price": 4349413,
+    "year": 2013
+  },
+  {
+    "id": 422,
+    "locationid": 246,
+    "price": 3543380,
+    "year": 2013
+  },
+  {
+    "id": 423,
+    "locationid": 158,
+    "price": 3118156,
+    "year": 2013
+  },
+  {
+    "id": 424,
+    "locationid": 163,
+    "price": 4289102,
+    "year": 2013
+  },
+  {
+    "id": 425,
+    "locationid": 230,
+    "price": 14946714,
+    "year": 2013
+  },
+  {
+    "id": 426,
+    "locationid": 239,
+    "price": 2377720,
+    "year": 2013
+  },
+  {
+    "id": 427,
+    "locationid": 143,
+    "price": 1257449,
+    "year": 2013
+  },
+  {
+    "id": 428,
+    "locationid": 43,
+    "price": 62946010,
+    "year": 2013
+  },
+  {
+    "id": 429,
+    "locationid": 161,
+    "price": 13608417,
+    "year": 2013
+  },
+  {
+    "id": 430,
+    "locationid": 162,
+    "price": 13201760,
+    "year": 2013
+  },
+  {
+    "id": 431,
+    "locationid": 263,
+    "price": 1029986,
+    "year": 2013
+  },
+  {
+    "id": 432,
+    "locationid": 116,
+    "price": 946893,
+    "year": 2013
+  },
+  {
+    "id": 433,
+    "locationid": 151,
+    "price": 878817,
+    "year": 2013
+  },
+  {
+    "id": 434,
+    "locationid": 166,
+    "price": 5171913,
+    "year": 2013
+  },
+  {
+    "id": 435,
+    "locationid": 74,
+    "price": 1478620,
+    "year": 2013
+  },
+  {
+    "id": 436,
+    "locationid": 140,
+    "price": 2065045,
+    "year": 2013
+  },
+  {
+    "id": 437,
+    "locationid": 236,
+    "price": 3079301,
+    "year": 2013
+  },
+  {
+    "id": 438,
+    "locationid": 262,
+    "price": 2264211,
+    "year": 2013
+  },
+  {
+    "id": 439,
+    "locationid": 141,
+    "price": 1781067,
+    "year": 2013
+  },
+  {
+    "id": 440,
+    "locationid": 229,
+    "price": 2684956,
+    "year": 2013
+  },
+  {
+    "id": 441,
+    "locationid": 237,
+    "price": 5093082,
+    "year": 2013
+  },
+  {
+    "id": 442,
+    "locationid": 202,
+    "price": 2753707,
+    "year": 2013
+  },
+  {
+    "id": 443,
+    "locationid": 24,
+    "price": 884773,
+    "year": 2013
+  },
+  {
+    "id": 444,
+    "locationid": 120,
+    "price": 8138000,
+    "year": 2013
+  },
+  {
+    "id": 445,
+    "locationid": 194,
+    "price": 56373955,
+    "year": 2013
+  },
+  {
+    "id": 446,
+    "locationid": 243,
+    "price": 1867871,
+    "year": 2013
+  },
+  {
+    "id": 447,
+    "locationid": 153,
+    "price": 1283003,
+    "year": 2013
+  },
+  {
+    "id": 448,
+    "locationid": 128,
+    "price": 36057460,
+    "year": 2013
+  },
+  {
+    "id": 449,
+    "locationid": 236,
+    "price": 2979078,
+    "year": 2012
+  },
+  {
+    "id": 450,
+    "locationid": 262,
+    "price": 2237905,
+    "year": 2012
+  },
+  {
+    "id": 451,
+    "locationid": 79,
+    "price": 1977711,
+    "year": 2012
+  },
+  {
+    "id": 452,
+    "locationid": 148,
+    "price": 1461158,
+    "year": 2012
+  },
+  {
+    "id": 453,
+    "locationid": 140,
+    "price": 2007414,
+    "year": 2012
+  },
+  {
+    "id": 454,
+    "locationid": 229,
+    "price": 2612303,
+    "year": 2012
+  },
+  {
+    "id": 455,
+    "locationid": 141,
+    "price": 1724016,
+    "year": 2012
+  },
+  {
+    "id": 456,
+    "locationid": 13,
+    "price": 1493452,
+    "year": 2012
+  },
+  {
+    "id": 457,
+    "locationid": 87,
+    "price": 2719719,
+    "year": 2012
+  },
+  {
+    "id": 458,
+    "locationid": 209,
+    "price": 2542366,
+    "year": 2012
+  },
+  {
+    "id": 459,
+    "locationid": 211,
+    "price": 2460248,
+    "year": 2012
+  },
+  {
+    "id": 460,
+    "locationid": 144,
+    "price": 1956188,
+    "year": 2012
+  },
+  {
+    "id": 461,
+    "locationid": 261,
+    "price": 3795537,
+    "year": 2012
+  },
+  {
+    "id": 462,
+    "locationid": 231,
+    "price": 1961478,
+    "year": 2012
+  },
+  {
+    "id": 463,
+    "locationid": 103,
+    "price": 183991333,
+    "year": 2012
+  },
+  {
+    "id": 464,
+    "locationid": 12,
+    "price": 154643000,
+    "year": 2012
+  },
+  {
+    "id": 465,
+    "locationid": 90,
+    "price": 1563454,
+    "year": 2012
+  },
+  {
+    "id": 466,
+    "locationid": 246,
+    "price": 3425371,
+    "year": 2012
+  },
+  {
+    "id": 467,
+    "locationid": 125,
+    "price": 2593956,
+    "year": 2012
+  },
+  {
+    "id": 468,
+    "locationid": 158,
+    "price": 2990516,
+    "year": 2012
+  },
+  {
+    "id": 469,
+    "locationid": 45,
+    "price": 1931962,
+    "year": 2012
+  },
+  {
+    "id": 470,
+    "locationid": 4,
+    "price": 1847809,
+    "year": 2012
+  },
+  {
+    "id": 471,
+    "locationid": 232,
+    "price": 3054107,
+    "year": 2012
+  },
+  {
+    "id": 472,
+    "locationid": 224,
+    "price": 204338333,
+    "year": 2012
+  },
+  {
+    "id": 473,
+    "locationid": 170,
+    "price": 2621977,
+    "year": 2012
+  },
+  {
+    "id": 474,
+    "locationid": 234,
+    "price": 3171450,
+    "year": 2012
+  },
+  {
+    "id": 475,
+    "locationid": 230,
+    "price": 13476285,
+    "year": 2012
+  },
+  {
+    "id": 476,
+    "locationid": 107,
+    "price": 2683447,
+    "year": 2012
+  },
+  {
+    "id": 477,
+    "locationid": 68,
+    "price": 4067250,
+    "year": 2012
+  },
+  {
+    "id": 478,
+    "locationid": 100,
+    "price": 21580779,
+    "year": 2012
+  },
+  {
+    "id": 479,
+    "locationid": 48,
+    "price": 1366239,
+    "year": 2012
+  },
+  {
+    "id": 480,
+    "locationid": 239,
+    "price": 2308728,
+    "year": 2012
+  },
+  {
+    "id": 481,
+    "locationid": 142,
+    "price": 1506254,
+    "year": 2012
+  },
+  {
+    "id": 482,
+    "locationid": 163,
+    "price": 3947320,
+    "year": 2012
+  },
+  {
+    "id": 483,
+    "locationid": 50,
+    "price": 2178407,
+    "year": 2012
+  },
+  {
+    "id": 484,
+    "locationid": 143,
+    "price": 1207052,
+    "year": 2012
+  },
+  {
+    "id": 485,
+    "locationid": 137,
+    "price": 2071680,
+    "year": 2012
+  },
+  {
+    "id": 486,
+    "locationid": 164,
+    "price": 5328726,
+    "year": 2012
+  },
+  {
+    "id": 487,
+    "locationid": 162,
+    "price": 12311059,
+    "year": 2012
+  },
+  {
+    "id": 488,
+    "locationid": 161,
+    "price": 13450690,
+    "year": 2012
+  },
+  {
+    "id": 489,
+    "locationid": 43,
+    "price": 62935533,
+    "year": 2012
+  },
+  {
+    "id": 490,
+    "locationid": 166,
+    "price": 4929397,
+    "year": 2012
+  },
+  {
+    "id": 491,
+    "locationid": 237,
+    "price": 4853816,
+    "year": 2012
+  },
+  {
+    "id": 492,
+    "locationid": 202,
+    "price": 2476317,
+    "year": 2012
+  },
+  {
+    "id": 493,
+    "locationid": 24,
+    "price": 861635,
+    "year": 2012
+  },
+  {
+    "id": 494,
+    "locationid": 243,
+    "price": 1747517,
+    "year": 2012
+  },
+  {
+    "id": 495,
+    "locationid": 263,
+    "price": 998223,
+    "year": 2012
+  },
+  {
+    "id": 496,
+    "locationid": 194,
+    "price": 56289333,
+    "year": 2012
+  },
+  {
+    "id": 497,
+    "locationid": 152,
+    "price": 2699094,
+    "year": 2012
+  },
+  {
+    "id": 498,
+    "locationid": 127,
+    "price": 1985311,
+    "year": 2012
+  },
+  {
+    "id": 499,
+    "locationid": 153,
+    "price": 1233247,
+    "year": 2012
+  },
+  {
+    "id": 500,
+    "locationid": 128,
+    "price": 33992581,
+    "year": 2012
+  },
+  {
+    "id": 501,
+    "locationid": 120,
+    "price": 7670500,
+    "year": 2012
+  },
+  {
+    "id": 502,
+    "locationid": 237,
+    "price": 4234721,
+    "year": 2010
+  },
+  {
+    "id": 503,
+    "locationid": 4,
+    "price": 1719100,
+    "year": 2010
+  },
+  {
+    "id": 504,
+    "locationid": 232,
+    "price": 2584421,
+    "year": 2010
+  },
+  {
+    "id": 505,
+    "locationid": 249,
+    "price": 1942482,
+    "year": 2010
+  },
+  {
+    "id": 506,
+    "locationid": 45,
+    "price": 1692113,
+    "year": 2010
+  },
+  {
+    "id": 507,
+    "locationid": 87,
+    "price": 2403231,
+    "year": 2010
+  },
+  {
+    "id": 508,
+    "locationid": 13,
+    "price": 1461986,
+    "year": 2010
+  },
+  {
+    "id": 509,
+    "locationid": 88,
+    "price": 5050020,
+    "year": 2010
+  },
+  {
+    "id": 510,
+    "locationid": 261,
+    "price": 4560110,
+    "year": 2010
+  },
+  {
+    "id": 511,
+    "locationid": 209,
+    "price": 2312108,
+    "year": 2010
+  },
+  {
+    "id": 512,
+    "locationid": 107,
+    "price": 2656575,
+    "year": 2010
+  },
+  {
+    "id": 513,
+    "locationid": 103,
+    "price": 173080667,
+    "year": 2010
+  },
+  {
+    "id": 514,
+    "locationid": 113,
+    "price": 3400764,
+    "year": 2010
+  },
+  {
+    "id": 515,
+    "locationid": 12,
+    "price": 141133333,
+    "year": 2010
+  },
+  {
+    "id": 516,
+    "locationid": 90,
+    "price": 1362180,
+    "year": 2010
+  },
+  {
+    "id": 517,
+    "locationid": 234,
+    "price": 2715914,
+    "year": 2010
+  },
+  {
+    "id": 518,
+    "locationid": 68,
+    "price": 3719612,
+    "year": 2010
+  },
+  {
+    "id": 519,
+    "locationid": 144,
+    "price": 1733118,
+    "year": 2010
+  },
+  {
+    "id": 520,
+    "locationid": 170,
+    "price": 2369154,
+    "year": 2010
+  },
+  {
+    "id": 521,
+    "locationid": 224,
+    "price": 172751900,
+    "year": 2010
+  },
+  {
+    "id": 522,
+    "locationid": 233,
+    "price": 1476590,
+    "year": 2010
+  },
+  {
+    "id": 523,
+    "locationid": 163,
+    "price": 3398765,
+    "year": 2010
+  },
+  {
+    "id": 524,
+    "locationid": 158,
+    "price": 2661795,
+    "year": 2010
+  },
+  {
+    "id": 525,
+    "locationid": 246,
+    "price": 3251604,
+    "year": 2010
+  },
+  {
+    "id": 526,
+    "locationid": 100,
+    "price": 18368584,
+    "year": 2010
+  },
+  {
+    "id": 527,
+    "locationid": 142,
+    "price": 1358953,
+    "year": 2010
+  },
+  {
+    "id": 528,
+    "locationid": 50,
+    "price": 1781625,
+    "year": 2010
+  },
+  {
+    "id": 529,
+    "locationid": 230,
+    "price": 12369976,
+    "year": 2010
+  },
+  {
+    "id": 530,
+    "locationid": 239,
+    "price": 2245441,
+    "year": 2010
+  },
+  {
+    "id": 531,
+    "locationid": 151,
+    "price": 750675,
+    "year": 2010
+  },
+  {
+    "id": 532,
+    "locationid": 43,
+    "price": 58983151,
+    "year": 2010
+  },
+  {
+    "id": 533,
+    "locationid": 263,
+    "price": 969640,
+    "year": 2010
+  },
+  {
+    "id": 534,
+    "locationid": 141,
+    "price": 1606742,
+    "year": 2010
+  },
+  {
+    "id": 535,
+    "locationid": 140,
+    "price": 1825283,
+    "year": 2010
+  },
+  {
+    "id": 536,
+    "locationid": 236,
+    "price": 2687217,
+    "year": 2010
+  },
+  {
+    "id": 537,
+    "locationid": 162,
+    "price": 11031237,
+    "year": 2010
+  },
+  {
+    "id": 538,
+    "locationid": 161,
+    "price": 11662561,
+    "year": 2010
+  },
+  {
+    "id": 539,
+    "locationid": 262,
+    "price": 2130929,
+    "year": 2010
+  },
+  {
+    "id": 540,
+    "locationid": 74,
+    "price": 1324797,
+    "year": 2010
+  },
+  {
+    "id": 541,
+    "locationid": 116,
+    "price": 870382,
+    "year": 2010
+  },
+  {
+    "id": 542,
+    "locationid": 24,
+    "price": 775746,
+    "year": 2010
+  },
+  {
+    "id": 543,
+    "locationid": 194,
+    "price": 53522315,
+    "year": 2010
+  },
+  {
+    "id": 544,
+    "locationid": 243,
+    "price": 1652922,
+    "year": 2010
+  },
+  {
+    "id": 545,
+    "locationid": 152,
+    "price": 2717564,
+    "year": 2010
+  },
+  {
+    "id": 546,
+    "locationid": 153,
+    "price": 1026854,
+    "year": 2010
+  },
+  {
+    "id": 547,
+    "locationid": 128,
+    "price": 38554857,
+    "year": 2010
+  },
+  {
+    "id": 548,
+    "locationid": 120,
+    "price": 4855000,
+    "year": 2010
+  },
+  {
+    "id": 549,
+    "locationid": 148,
+    "price": 1502498,
+    "year": 2011
+  },
+  {
+    "id": 550,
+    "locationid": 4,
+    "price": 1859570,
+    "year": 2011
+  },
+  {
+    "id": 551,
+    "locationid": 114,
+    "price": 2914268,
+    "year": 2011
+  },
+  {
+    "id": 552,
+    "locationid": 249,
+    "price": 2070702,
+    "year": 2011
+  },
+  {
+    "id": 553,
+    "locationid": 45,
+    "price": 1752069,
+    "year": 2011
+  },
+  {
+    "id": 554,
+    "locationid": 231,
+    "price": 1983723,
+    "year": 2011
+  },
+  {
+    "id": 555,
+    "locationid": 88,
+    "price": 5638265,
+    "year": 2011
+  },
+  {
+    "id": 556,
+    "locationid": 87,
+    "price": 2602107,
+    "year": 2011
+  },
+  {
+    "id": 557,
+    "locationid": 13,
+    "price": 1411501,
+    "year": 2011
+  },
+  {
+    "id": 558,
+    "locationid": 170,
+    "price": 2578234,
+    "year": 2011
+  },
+  {
+    "id": 559,
+    "locationid": 230,
+    "price": 13233409,
+    "year": 2011
+  },
+  {
+    "id": 560,
+    "locationid": 107,
+    "price": 2755366,
+    "year": 2011
+  },
+  {
+    "id": 561,
+    "locationid": 163,
+    "price": 3651437,
+    "year": 2011
+  },
+  {
+    "id": 562,
+    "locationid": 209,
+    "price": 2426287,
+    "year": 2011
+  },
+  {
+    "id": 563,
+    "locationid": 261,
+    "price": 4215917,
+    "year": 2011
+  },
+  {
+    "id": 564,
+    "locationid": 103,
+    "price": 184138333,
+    "year": 2011
+  },
+  {
+    "id": 565,
+    "locationid": 12,
+    "price": 148578333,
+    "year": 2011
+  },
+  {
+    "id": 566,
+    "locationid": 144,
+    "price": 1785166,
+    "year": 2011
+  },
+  {
+    "id": 567,
+    "locationid": 125,
+    "price": 2459452,
+    "year": 2011
+  },
+  {
+    "id": 568,
+    "locationid": 211,
+    "price": 2446753,
+    "year": 2011
+  },
+  {
+    "id": 569,
+    "locationid": 232,
+    "price": 2785247,
+    "year": 2011
+  },
+  {
+    "id": 570,
+    "locationid": 158,
+    "price": 2915606,
+    "year": 2011
+  },
+  {
+    "id": 571,
+    "locationid": 234,
+    "price": 3046964,
+    "year": 2011
+  },
+  {
+    "id": 572,
+    "locationid": 90,
+    "price": 1466161,
+    "year": 2011
+  },
+  {
+    "id": 573,
+    "locationid": 100,
+    "price": 20488007,
+    "year": 2011
+  },
+  {
+    "id": 574,
+    "locationid": 68,
+    "price": 3901528,
+    "year": 2011
+  },
+  {
+    "id": 575,
+    "locationid": 186,
+    "price": 6909750,
+    "year": 2011
+  },
+  {
+    "id": 576,
+    "locationid": 246,
+    "price": 3415420,
+    "year": 2011
+  },
+  {
+    "id": 577,
+    "locationid": 137,
+    "price": 2028506,
+    "year": 2011
+  },
+  {
+    "id": 578,
+    "locationid": 233,
+    "price": 1564651,
+    "year": 2011
+  },
+  {
+    "id": 579,
+    "locationid": 239,
+    "price": 2265507,
+    "year": 2011
+  },
+  {
+    "id": 580,
+    "locationid": 143,
+    "price": 1162959,
+    "year": 2011
+  },
+  {
+    "id": 581,
+    "locationid": 263,
+    "price": 1044873,
+    "year": 2011
+  },
+  {
+    "id": 582,
+    "locationid": 202,
+    "price": 2101771,
+    "year": 2011
+  },
+  {
+    "id": 583,
+    "locationid": 237,
+    "price": 4646793,
+    "year": 2011
+  },
+  {
+    "id": 584,
+    "locationid": 162,
+    "price": 11810735,
+    "year": 2011
+  },
+  {
+    "id": 585,
+    "locationid": 50,
+    "price": 2018093,
+    "year": 2011
+  },
+  {
+    "id": 586,
+    "locationid": 43,
+    "price": 62962810,
+    "year": 2011
+  },
+  {
+    "id": 587,
+    "locationid": 151,
+    "price": 862187,
+    "year": 2011
+  },
+  {
+    "id": 588,
+    "locationid": 141,
+    "price": 1705682,
+    "year": 2011
+  },
+  {
+    "id": 589,
+    "locationid": 140,
+    "price": 1978165,
+    "year": 2011
+  },
+  {
+    "id": 590,
+    "locationid": 236,
+    "price": 2945905,
+    "year": 2011
+  },
+  {
+    "id": 591,
+    "locationid": 229,
+    "price": 2479082,
+    "year": 2011
+  },
+  {
+    "id": 592,
+    "locationid": 161,
+    "price": 12421263,
+    "year": 2011
+  },
+  {
+    "id": 593,
+    "locationid": 243,
+    "price": 1714010,
+    "year": 2011
+  },
+  {
+    "id": 594,
+    "locationid": 116,
+    "price": 884184,
+    "year": 2011
+  },
+  {
+    "id": 595,
+    "locationid": 244,
+    "price": 2153491,
+    "year": 2011
+  },
+  {
+    "id": 596,
+    "locationid": 152,
+    "price": 2912522,
+    "year": 2011
+  },
+  {
+    "id": 597,
+    "locationid": 74,
+    "price": 1422687,
+    "year": 2011
+  },
+  {
+    "id": 598,
+    "locationid": 24,
+    "price": 839560,
+    "year": 2011
+  },
+  {
+    "id": 599,
+    "locationid": 75,
+    "price": 2570825,
+    "year": 2011
+  },
+  {
+    "id": 600,
+    "locationid": 194,
+    "price": 55668800,
+    "year": 2011
+  },
+  {
+    "id": 601,
+    "locationid": 127,
+    "price": 1936624,
+    "year": 2011
+  },
+  {
+    "id": 602,
+    "locationid": 120,
+    "price": 4858500,
+    "year": 2011
+  },
+  {
+    "id": 603,
+    "locationid": 128,
+    "price": 39092000,
+    "year": 2011
+  }
+]
