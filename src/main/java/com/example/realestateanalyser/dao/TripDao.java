@@ -26,20 +26,21 @@ public class TripDao {
 	                                          int year,
 	                                          boolean isPickup) {
 		Session session = sessionFactory.openSession();
-		final Object[] row = (Object[]) session.createNativeQuery(
-						String.format("""
-															SELECT SUM(trip_count),
-																   SUM(total_passengers),
-																   SUM(total_fare)
-															FROM yearly_aggregates
-															WHERE %s = %d
-															  AND year = %d;
-										""",
-								isPickup ? "pulocationid" : "dolocationid",
-								locationID,
-								year)
-				)
-				.list().get(0);
+		final Object[] row = (Object[])
+				session.createNativeQuery(
+								String.format("""
+																	SELECT SUM(trip_count),
+																		   SUM(total_passengers),
+																		   SUM(total_fare)
+																	FROM yearly_aggregates
+																	WHERE %s = %d
+																	  AND year = %d;
+												""",
+										isPickup ? "pulocationid" : "dolocationid",
+										locationID,
+										year)
+						)
+						.list().get(0);
 		TripAggregateInfo info = new TripAggregateInfo(
 				(BigDecimal) row[0],
 				(BigDecimal) row[1],

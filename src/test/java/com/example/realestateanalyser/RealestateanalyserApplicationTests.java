@@ -1,6 +1,8 @@
 package com.example.realestateanalyser;
 
+import com.example.realestateanalyser.dao.RealEstateDao;
 import com.example.realestateanalyser.dao.TripDao;
+import com.example.realestateanalyser.pojo.RealEstateNYCinfo;
 import com.example.realestateanalyser.pojo.TripAggregateInfo;
 import com.example.realestateanalyser.util.HibernateUtil;
 import org.hibernate.Session;
@@ -11,6 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
+import java.util.List;
 
 @SpringBootTest
 class RealestateanalyserApplicationTests {
@@ -50,5 +53,12 @@ class RealestateanalyserApplicationTests {
 				dateFormat.parse("2021-03-01"));
 		System.out.println(pickupAggregates);
 		System.out.println(dropoffAggregates);
+	}
+
+	@Test
+	void testNYCdao() {
+		RealEstateDao dao = new RealEstateDao();
+		final List<RealEstateNYCinfo> list = dao.buildingInfoByAddress("a");
+		System.out.println(list);
 	}
 }
