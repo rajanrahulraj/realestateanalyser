@@ -15,14 +15,37 @@ const Navigation = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="/taxi">Taxi</a>
-            <a className="nav-link" href="/auth">Account</a>
-            <a className="nav-link" href="/">Real Estate</a>
-            <a className="nav-link disabled"></a>
+        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="/">Account</a>
+            </li>
+            {/* <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li> */}
 
-          </div>
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                History
+              </a>
+              <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="/taxi">Busyness</a></li>
+                <li><a className="dropdown-item" href="/price">Real Estate</a></li>
+
+              </ul>
+            </li>
+
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Prediction
+              </a>
+              <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="/prebusy">Busyness</a></li>
+                <li><a className="dropdown-item" href="/preprice">Real Estate</a></li>
+
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </nav >
