@@ -10,6 +10,8 @@ import { parse } from 'papaparse'
 import schooldata from '../data/schooldata.json'
 import hospitaldata from '../data/hospitaldata.json'
 import taxidata from '../data/2021taxi.json'
+import T from '../components/HistoryTaxi'
+import HistoryRealEstate from '../components/HistoryRealEstate'
 
 import * as L from "leaflet"
 import { Bar } from 'react-chartjs-2'
@@ -62,8 +64,9 @@ const TaxiZoneMap = () => {
 
     const zoneName = zone.properties.zone
     const IDName = zone.properties.location_id
-
-    layer.bindPopup(zoneName + ", Location ID: " + IDName)
+    // Bind a tooltip to the zone showing the IDName
+    layer.bindTooltip("Location ID: " + IDName)
+    layer.bindPopup(zoneName)
     // chart test
     const updateHeatmapStyle = (value) => {
       const maxPU = 1000 // Adjust this value according to your data
@@ -80,16 +83,18 @@ const TaxiZoneMap = () => {
         weight: 2,
       })
     }
-    console.log(selectedDate)
+
 
     const matchedObject = taxidata.find((item) => item.LocationID === IDName && item.Date === selectedDate)
-
+    // const data2018 = taxidata.filter((item) => item.Date === "2021-01-01")
+    // console.log(data2018)
+    // console.log(matchedObject)
     if (matchedObject) {
       const matchedProperty = matchedObject.PU_passenger
-      layer.setPopupContent(zoneName + ", Location ID: " + IDName + ", PU_passenger: " + matchedProperty)
+      layer.setPopupContent(zoneName)
 
       updateHeatmapStyle(matchedProperty)
-      // console.log()
+
 
     }
   }
@@ -227,7 +232,19 @@ const TaxiZoneMap = () => {
             </Marker>
           ))}
         </MapContainer>
-        <div className="bar"><Bar options={chartOptions} data={chartData} /></div>
+
+        <div className="col">
+          <div className="bar">
+
+
+            {/* <div className="bar"><Bar options={chartOptions} data={chartData} /></div> */}
+            <T />
+            {/* <HistoryRealEstate /> */}
+
+          </div>
+        </div>
+
+
 
 
         {/* <input
@@ -235,7 +252,7 @@ const TaxiZoneMap = () => {
           value={selectedDate}
           onChange={(e) => setSelectedDate(e.target.value)}
         /> */}
-        <DateFilter selectedDate={selectedDate} onDateChange={handleDateChange} />
+        {/* <DateFilter selectedDate={selectedDate} onDateChange={handleDateChange} /> */}
       </div>
     </div>
   )
