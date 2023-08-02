@@ -30,7 +30,9 @@
 .bar {
   background-color: white;
   float: right;
-  margin-right: 45px;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  height: 1px;
 }
 .App-logo {
   height: 40vmin;
