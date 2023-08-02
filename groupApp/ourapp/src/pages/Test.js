@@ -10,6 +10,8 @@ import { parse } from 'papaparse'
 import schooldata from '../data/schooldata.json'
 import hospitaldata from '../data/hospitaldata.json'
 import taxidata from '../data/2021taxi.json'
+import realestatedata from '../data/realestate.json'
+
 
 import * as L from "leaflet"
 import { Bar } from 'react-chartjs-2'
@@ -40,6 +42,7 @@ const getColor = (value, gradient) => {
 
 
 const Test = () => {
+  console.log(realestatedata[0].LocationID)
   const [filteredData, setFilteredData] = useState([])
   const [selectedLocationID, setSelectedLocationID] = useState('')
   const [selectedDate, setSelectedDate] = useState('')
@@ -51,6 +54,7 @@ const Test = () => {
   const yearOptions = Array.from(new Set(taxidata.map(item => item.Year)))
 
   const filterData = () => {
+    console.log(realestatedata[0])
     let filteredItems = taxidata
 
     if (selectedLocationID) {
