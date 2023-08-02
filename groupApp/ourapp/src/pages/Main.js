@@ -2,7 +2,7 @@
 
 import '../App.css'
 import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+
 import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps'
 import { Bar } from 'react-chartjs-2'
 import {
@@ -54,78 +54,22 @@ const MapWithCenter = withGoogleMap(() => (
 ))
 
 
-// function App () {
-//   const data = {
-//     labels: ['January', 'February', 'March', 'April', 'May', 'June'],
-//     datasets: [
-//       {
-//         labels: 'Dataset',
-//         data: [65, 59, 80, 81, 56, 55],
-
-//         borderColor: 'rgb(75, 192, 192)',
-
-//       },
-
-//     ]
-//   }
-
-//   // Define the chart options
-//   const options = {
-//     plugins: {
-
-//       legend: true
-
-//     }
-//   }
-//   return (
-//     <div className='App'>
-//       <Line>data={data} options={options}</Line>
-//     </div>
-//   )
-// }
-
 function Main () {
 
   const [timeRange, setTimeRange] = useState([2015, 2019])
-  // const [activity, setActivity] = useState('pickup')
-  // const [timeSlot, setTimeSlot] = useState('')
+
   const [area, setArea] = useState('')
 
   const handleTimeRangeChange = (event) => {
     setTimeRange(event.target.value)
   }
 
-  // const handleActivityChange = (event) => {
-  //   setActivity(event.target.value)
-  // }
 
-  // const handleTimeSlotChange = (event) => {
-  //   setTimeSlot(event.target.value)
-  // }
 
   const handleAreaChange = (event) => {
     setArea(event.target.value)
   }
 
-  // const [hospitals, setHospitals] = useState([])
-
-  // useEffect(() => {
-  //   const fetchHospitalsData = async () => {
-  //     try {
-  //       const response = await axios.get(
-  //         `/api/maps/api/place/nearbysearch/json?location=-33.8670522%2C151.1957362&radius=150000&type=hospital&key=AIzaSyCyO52_euiv4kQ72cu1H1PpPxbUyA67bUA`, {
-  //         timeout: 5000
-  //       }
-  //       )
-  //       setHospitals(response.data.results)
-  //     } catch (error) {
-  //       console.log('Error fetching hospitals data:', error)
-  //     }
-  //   }
-
-  //   fetchHospitalsData()
-  // }, [])
-  // console.log(hospitals)
 
   const [chartData, setChartData] = useState({
     datasets: [],
@@ -161,7 +105,7 @@ function Main () {
   return (
 
     <div className="App">
-      {/* <LineChart /> */}
+
       <h1>Real Estate</h1>
       <div className="d-flex">
         <div className="col">
@@ -176,18 +120,6 @@ function Main () {
               onChange={handleTimeRangeChange}
             />
 
-            {/* <h2>Vehicle Activity Choice</h2>
-        <select value={activity} onChange={handleActivityChange}>
-          <option value="pickup">Pick-up</option>
-          <option value="dropoff">Drop-off</option>
-        </select>
-
-        <h2>Time Slot Choice</h2>
-        <input
-          type="time"
-          value={timeSlot}
-          onChange={handleTimeSlotChange}
-        /> */}
 
             <h2>Area Choice</h2>
             <select value={area} onChange={handleAreaChange}>
@@ -197,7 +129,7 @@ function Main () {
               <option value="area3">Area 3</option>
             </select>
 
-            {/* 其他组件内容 */}
+
           </div>
 
 
@@ -223,8 +155,8 @@ function Main () {
           </div>
         </div>
 
-        <div className="bar"><Bar options={chartOptions} data={chartData} /></div>
-        {/* <TaxiZoneMap /> */}
+        <div><Bar options={chartOptions} data={chartData} /></div>
+
       </div>
 
     </div>
