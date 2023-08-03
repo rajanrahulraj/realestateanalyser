@@ -63,5 +63,4 @@ public class RealEstateDao {
 		}
 		return buildingInfoList;
 	}
-
 }
