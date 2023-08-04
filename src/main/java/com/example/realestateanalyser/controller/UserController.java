@@ -64,7 +64,7 @@ public class UserController {
 		final HttpSession session = request.getSession();
 		final Object user = session.getAttribute("user");
 		if (null == user) {
-			 return CustomResponse.error("no user logged in");
+			return CustomResponse.error("no user logged in");
 		}
 		long userID = (Long) user;
 		// int userID = -1;
@@ -86,14 +86,20 @@ public class UserController {
 		}
 	}
 
-	@PostMapping("/userFavorites")
-	public List<RealEstateNYCinfo> userFavorites(HttpServletRequest request, HttpServletResponse response) {
+	@GetMapping("/loggedInUserFavorites")
+	public List<RealEstateNYCinfo> userFavoritesFromSession(HttpServletRequest request) {
 		final HttpSession session = request.getSession();
 		final Object user = session.getAttribute("user");
 		if (null == user) {
 			return null;
 		}
 		long userID = (Long) user;
+		final List<RealEstateNYCinfo> realEstateNYCinfos = realEstateDao.usersFavoriteBuildings(userID);
+		return realEstateNYCinfos;
+	}
+
+	@GetMapping("/userFavorites")
+	public List<RealEstateNYCinfo> userFavorites(@RequestParam int userID) {
 		final List<RealEstateNYCinfo> realEstateNYCinfos = realEstateDao.usersFavoriteBuildings(userID);
 		return realEstateNYCinfos;
 	}
