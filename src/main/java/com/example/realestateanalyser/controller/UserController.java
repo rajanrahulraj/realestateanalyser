@@ -1,18 +1,22 @@
 package com.example.realestateanalyser.controller;
 
+import com.example.realestateanalyser.dao.RealEstateDao;
 import com.example.realestateanalyser.dao.UserBuildingRepository;
 import com.example.realestateanalyser.dao.UserRepository;
 import com.example.realestateanalyser.general.CustomResponse;
+import com.example.realestateanalyser.pojo.RealEstateNYCinfo;
 import com.example.realestateanalyser.pojo.User;
 import com.example.realestateanalyser.pojo.UserBuildingLink;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.net.http.HttpRequest;
+import java.util.List;
 
 @CrossOrigin
 @RestController
@@ -22,6 +26,8 @@ public class UserController {
 	UserRepository userRepository;
 	@Autowired
 	UserBuildingRepository userBuildingRepository;
+	@Autowired
+	RealEstateDao realEstateDao;
 
 	@PostMapping("/signup")
 	public CustomResponse signUp(@RequestBody User user) {
@@ -78,5 +84,17 @@ public class UserController {
 			userBuildingRepository.delete(existingEntry);
 			return CustomResponse.success("removed building from user's favorites");
 		}
+	}
+
+	@PostMapping("/userFavorites")
+	public List<RealEstateNYCinfo> userFavorites(HttpServletRequest request, HttpServletResponse response) {
+		final HttpSession session = request.getSession();
+		final Object user = session.getAttribute("user");
+		if (null == user) {
+			return null;
+		}
+		long userID = (Long) user;
+		final List<RealEstateNYCinfo> realEstateNYCinfos = realEstateDao.usersFavoriteBuildings(userID);
+		return realEstateNYCinfos;
 	}
 }

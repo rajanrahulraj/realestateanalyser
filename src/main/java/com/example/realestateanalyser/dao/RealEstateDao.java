@@ -49,18 +49,37 @@ public class RealEstateDao {
 		return buildingInfoList;
 	}
 
-	private static List<RealEstateNYCinfo> getRealEstateNYCinfo(List<Object[]> rows) {
-		List<RealEstateNYCinfo> buildingInfoList = new ArrayList<>();
-		for (Object[] columns : rows) {
-			RealEstateNYCinfo building = new RealEstateNYCinfo(
-					(String) columns[0],
-					(String) columns[1],
-					(String) columns[2],
-					(String) columns[3],
-					(Integer) columns[4]
-			);
-			buildingInfoList.add(building);
-		}
+	public List<RealEstateNYCinfo> usersFavoriteBuildings(long userID) {
+		Session session = sessionFactory.openSession();
+		final List<Object[]> rows = (List<Object[]>) session.createNativeQuery(
+				String.format("""
+								SELECT d.staddr, n.bble, n.stories, n.fulval, n.year
+								FROM real_estate_data AS d,
+								     real_estate_nyc AS n
+								WHERE d.bble = n.bble
+								  AND n.bble IN (SELECT L.building_bble
+								               FROM user_building_link as L
+								               WHERE userid = %d)
+								ORDER BY year;
+								""",
+						userID)
+		).list();
+		List<RealEstateNYCinfo> buildingInfoList = getRealEstateNYCinfo(rows);
 		return buildingInfoList;
 	}
-}
+
+		private static List<RealEstateNYCinfo> getRealEstateNYCinfo (List < Object[]>rows){
+			List<RealEstateNYCinfo> buildingInfoList = new ArrayList<>();
+			for (Object[] columns : rows) {
+				RealEstateNYCinfo building = new RealEstateNYCinfo(
+						(String) columns[0],
+						(String) columns[1],
+						(String) columns[2],
+						(String) columns[3],
+						(Integer) columns[4]
+				);
+				buildingInfoList.add(building);
+			}
+			return buildingInfoList;
+		}
+	}
