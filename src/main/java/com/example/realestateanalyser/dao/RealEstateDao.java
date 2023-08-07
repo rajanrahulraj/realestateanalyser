@@ -15,19 +15,26 @@ public class RealEstateDao {
 
 	public List<RealEstateNYCinfo> buildingInfoByAddress(String address) {
 		Session session = sessionFactory.openSession();
-		final List<Object[]> rows = (List<Object[]>) session.createNativeQuery(
-				String.format("""
-								SELECT d.staddr, n.bble, n.stories, n.fulval, n.year
-								FROM real_estate_data AS d,
-								     real_estate_nyc AS n
-								WHERE d.bble = n.bble
-								AND staddr = '%s'
-								ORDER BY year;
+		try{
+			final List<Object[]> rows = (List<Object[]>) session.createNativeQuery(
+					String.format("""
+								SELECT d.staddr, n.bble, n.stories, n.fulval, n.year, bl.latitude, bl.longitude
+									FROM real_estate_data d join
+										 real_estate_nyc n on d.bble = n.bble
+										 left join
+										 building_locations bl on d.bble= bl.bble
+									WHERE d.bble = n.bble
+									AND staddr = '%s'
+									ORDER BY year;
 								"""
-						, address)
-		).list();
-		List<RealEstateNYCinfo> buildingInfoList = getRealEstateNYCinfo(rows);
-		return buildingInfoList;
+							, address)
+			).list();
+			List<RealEstateNYCinfo> buildingInfoList = getRealEstateNYCinfo(rows);
+			return buildingInfoList;
+		} catch(Exception e){
+			return new ArrayList<RealEstateNYCinfo>();
+		}
+
 	}
 
 	public List<RealEstateNYCinfo> buildingsWithinZone(int zoneID) {
@@ -76,7 +83,9 @@ public class RealEstateDao {
 						(String) columns[1],
 						(String) columns[2],
 						(String) columns[3],
-						(Integer) columns[4]
+						(Integer) columns[4],
+						(String) columns[5],
+						(String) columns[6]
 				);
 				buildingInfoList.add(building);
 			}

@@ -1,6 +1,5 @@
 package com.example.realestateanalyser.pojo;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,5 +19,9 @@ public class RealEstateNYCinfo {
 	// private String exland;
 	// private String extot;
 	private int year;
+
+	private String latitude;
+	private String longitude;
+
 
 }
