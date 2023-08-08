@@ -5,10 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class RealEstateNYCinfo {
-
 	private String address;
 	private String bble;
 	private String stories;
@@ -23,5 +20,22 @@ public class RealEstateNYCinfo {
 	private String latitude;
 	private String longitude;
 
+	public RealEstateNYCinfo(String address, String bble, String stories, String fulval, int year, String latitude, String longitude){
+		this.address = address;
+		this.bble = bble;
+		this.stories = stories;
+		this.fulval = fulval;
+		this.year = year;
+		this.latitude = latitude;
+		this.longitude = longitude;
+	}
+
+	public RealEstateNYCinfo(String address, String bble, String stories, String fulval, int year){
+		this.address = address;
+		this.bble = bble;
+		this.stories = stories;
+		this.fulval = fulval;
+		this.year = year;
+	}
 
 }
