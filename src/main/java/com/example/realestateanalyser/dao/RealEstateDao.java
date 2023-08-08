@@ -47,7 +47,7 @@ public class RealEstateDao {
 											 left join
 											 building_locations bl on d.bble= bl.bble
 									WHERE n.bble = d.bble
-									  AND  d.block = 4;
+									  AND  d.block = %d;
 							"""
 						, zoneID)
 		).list();
