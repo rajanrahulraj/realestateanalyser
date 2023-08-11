@@ -41,14 +41,14 @@ public class RealEstateDao {
 		Session session = sessionFactory.openSession();
 		final List<Object[]> rows = (List<Object[]>) session.createNativeQuery(
 				String.format("""
-								SELECT d.staddr, n.bble, n.stories, n.fulval, n.year, bl.latitude, bl.longitude
+									SELECT d.staddr, n.bble, n.stories, n.fulval, n.year, bl.latitude, bl.longitude
 										FROM real_estate_data d join
-											 (SELECT n.bble,SUBSTRING_INDEX(GROUP_CONCAT(n.stories separator ','), ',', 1) stories, SUBSTRING_INDEX(GROUP_CONCAT(n.fulval separator ','), ',', 1) fulval, max(n.year) as year FROM realestateanalyser.real_estate_nyc n group by n.bble) n on d.bble = n.bble
+											 (SELECT n.bble,SUBSTRING_INDEX(GROUP_CONCAT(n.stories separator ','), ',', 1) stories, SUBSTRING_INDEX(GROUP_CONCAT(n.fulval separator ','), ',', 1) fulval, max(n.year) as year, SUBSTRING_INDEX(GROUP_CONCAT(n.locationid separator ','), ',', 1) locationid FROM realestateanalyser.real_estate_nyc n group by n.bble) n on d.bble = n.bble
 											 left join
 											 building_locations bl on d.bble= bl.bble
 									WHERE n.bble = d.bble
-									  AND  d.block = 4;
-							"""
+									  AND  n.locationid = %d;
+								"""
 						, zoneID)
 		).list();
 		List<RealEstateNYCinfo> buildingInfoList = getRealEstateNYCinfo(rows);
